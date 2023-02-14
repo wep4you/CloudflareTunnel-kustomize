@@ -36,9 +36,9 @@ Now generate a Sealed Secret for your token, this new generated file could be ch
 ## Install with Argo CD
 
 Use a central repository which links to all Apps which has to be deployed,
-and add the App desciption there, or deploy the App for heimdall manually.
+and add the App desciption there, or deploy the App for cloudflare manually.
 Find a sample in my [App of Apps Repo](https://github.com/wep4you/k8s-apps.git),
-there is also sample definition for the [Heimdall App](https://github.com/wep4you/k8s-apps/blob/main/local/CloudflareTunnel.yml)
+there is also sample definition for the [cloudflare App](https://github.com/wep4you/k8s-apps/blob/main/local/CloudflareTunnel.yml)
 
 
 ## Install manual with kubectl
