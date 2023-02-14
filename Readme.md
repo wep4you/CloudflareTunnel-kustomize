@@ -28,8 +28,8 @@ For sealing you have to install Sealed Secrets from Bitnami. Find a tutorial wit
 
 Now generate a Sealed Secret for your token, this new generated file could be checked in.
 
-    kubectl --namespace cloudeflare create secret generic cloudeflare-tunnel --dry-run=client \
-    --from-literal token='<YOUR-CLOUDEFLARE-TUNNEL-TOKEN>' \
+    kubectl --namespace cloudflare create secret generic cloudflare-tunnel --dry-run=client \
+    --from-literal token='<YOUR-cloudflare-TUNNEL-TOKEN>' \
     --output json | kubeseal | tee overlays/local/sealedsecret.yml    
 
 
