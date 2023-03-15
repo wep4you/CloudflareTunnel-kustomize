@@ -8,4 +8,4 @@ patchesStrategicMerge:
 images:
 - name: cloudflare/cloudflared
   newName: cloudflare/cloudflared
-  newTag: 2023.2.1
+  newTag: 2023.3.1
